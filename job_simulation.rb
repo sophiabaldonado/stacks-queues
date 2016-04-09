@@ -33,8 +33,8 @@ class Job
   end
 
   def status
-    puts "Queue: #{@queue.inspect}"
-    puts "Stack: #{@employees.inspect}"
+    puts "Queue: #{@queue.inspect} has #{@queue.size} people."
+    puts "Stack: #{@employees.inspect} has #{@employees.size} people."
   end
 
   private
